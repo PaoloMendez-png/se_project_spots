@@ -1,21 +1,21 @@
-# Project 3: Spots
+# Spots
 
-### Overview  
+Spots is an interactive social media web application where users can add and remove photos, like photos of other users, and make a few minor adjustments to their profile.
 
-* Intro  
-* Figma  
-* Images  
-  
-**Intro**
-  
-This project is made so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.  
-  
-**Figma**  
-  
-* [Link to the project on Figma](https://www.figma.com/file/BBNm2bC3lj8QQMHlnqRsga/Sprint-3-Project-%E2%80%94-Spots?type=design&node-id=2%3A60&mode=design&t=afgNFybdorZO6cQo-1)
-  
-**Images**  
-  
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
-  
-Good luck and have fun!
+## Description
+
+A profile page where you can edit your profile's Avatar, Name, Occupation and Posts. After the header you are presented with the different posts of the profile with a title for these posts and a button to like or unlike said post.
+
+## Tech Stack
+
+- HTML
+- CSS
+- Responsive Design
+
+## Website Link
+
+https://paolomendez-png.github.io/se_project_spots/
+
+## Loom Link
+
+https://www.loom.com/share/bbfd6c545f2b48b782a4d77eb2452aae
