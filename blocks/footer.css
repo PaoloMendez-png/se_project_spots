@@ -1,0 +1,12 @@
+.footer {
+  background-color: #fcf5e5;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  vertical-align: center;
+}
+
+.footer__subtitle {
+  margin: 60px auto;
+}
