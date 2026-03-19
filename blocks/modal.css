@@ -24,19 +24,30 @@
   position: relative;
 }
 
+.modal__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0 32px;
+}
+
 .modal__close-btn {
-  position: absolute;
-  top: 32px;
-  right: 50px;
   width: 40px;
   height: 40px;
   background-image: url(../images/close-button.svg);
   background-color: transparent;
   border: none;
+  padding: 0;
+  flex-shrink: 0;
+}
+
+.modal__close-btn:hover {
+  opacity: 80%;
+  cursor: pointer;
 }
 
 .modal__title {
-  margin: 0 0 32px;
+  margin: 0;
 }
 
 .modal__form {
@@ -46,14 +57,28 @@
 
 .modal__label {
   margin: 0 0 32px;
+  color: #21212170;
 }
 
 .modal__input {
   display: block;
   margin: 8px 0 0;
   width: 100%;
+  padding: 16px 12px;
+  border-radius: 8px;
+  border-width: 1px;
+  border-color: #21212140;
 }
 
-.modal__input::placeholder {
-  color: #2121214d;
+.modal__input:hover {
+  border-color: #212121;
+  cursor: pointer;
+}
+
+.modal__submit-btn {
+  background-color: #212121;
+  border-radius: 8px;
+  padding: 18px 32px;
+  color: #fcf5e5;
+  width: 156px;
 }
