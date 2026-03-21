@@ -83,6 +83,10 @@
   color: #fcf5e5;
   width: 156px;
   height: 52px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media screen and (max-width: 627px) {
