@@ -50,12 +50,12 @@
   cursor: pointer;
 }
 
-.profile__add-btn:hover {
+.profile__new-post-btn:hover {
   opacity: 80%;
   cursor: pointer;
 }
 
-.profile__add-btn {
+.profile__new-post-btn {
   margin: 138px 0 20px 626px;
   color: #fcf5e5;
   background-color: #212121;
@@ -95,7 +95,7 @@
     margin: 0 0 20px;
   }
 
-  .profile__add-btn {
+  .profile__new-post-btn {
     margin: 0;
   }
 
