@@ -43,6 +43,8 @@
   background-color: transparent;
   border-color: transparent;
   display: flex;
+  align-items: center;
+  white-space: nowrap;
 }
 
 .profile__edit-btn:hover {
@@ -56,7 +58,9 @@
 }
 
 .profile__new-post-btn {
-  margin: 138px 0 20px 626px;
+  margin-left: auto;
+  margin-bottom: 20px;
+  align-self: flex-end;
   color: #fcf5e5;
   background-color: #212121;
   width: 149px;
