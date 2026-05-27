@@ -11,6 +11,7 @@ A profile page where you can edit your profile's Avatar, Name, Occupation and Po
 - HTML
 - CSS
 - Responsive Design
+- JS
 
 ## Website Link
 
