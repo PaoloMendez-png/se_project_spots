@@ -10,6 +10,18 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-top: 20px;
+  gap: 10px;
+}
+
+.card__title {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  min-width: 0;
 }
 
 .card__like-btn {
@@ -19,6 +31,7 @@
   border: none;
   background-color: transparent;
   opacity: 40%;
+  flex-shrink: 0;
 }
 
 .card__like-btn:hover {

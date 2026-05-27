@@ -79,6 +79,11 @@
   cursor: pointer;
 }
 
+.modal__submit-btn:hover {
+  opacity: 80%;
+  cursor: pointer;
+}
+
 .modal__submit-btn {
   background-color: #212121;
   border-radius: 8px;
@@ -102,9 +107,10 @@
   }
 
   .modal__container {
-    padding: 12px;
-    max-width: 300px;
-    width: 100%;
+    padding: 24px;
+    width: calc(100% - 32px);
+    max-width: none;
+    box-sizing: border-box;
   }
 
   .modal__label {
